@@ -1,0 +1,3 @@
+#!/bin/bash
+
+zip twadlib.zip *.html *.css *.js *.ico
