@@ -39,7 +39,7 @@ header > h1 span { color: #51CCFF; font-weight: bold; font-family: helvetica, ar
 .ad-lib h1 { font-size: 1.3em; margin: 0 0 5px; }
 
 /* Try */
-.try h2 { font-weight: normal; font-size: 1.25em; }
+.try h2 { font-style: italic; margin-bottom: 5px; font-weight: normal; font-size: 1.25em; }
 .twextarea { background: #fff; border: 1px solid #CCC; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; padding: 2%; width: 96%; max-width: 482px; min-height: 56px; color: #A9A9A9; font: 14px/18px "Helvetica Neue",Arial,sans-serif; border:#35a5e5 1px solid; box-shadow: 0 0 5px rgba(81, 203, 238, 1); -webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1); -moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1); display: block; margin-bottom: 10px; }
 
 /* Previous */
