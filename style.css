@@ -1,5 +1,4 @@
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
-audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+article, footer, header, section { display: block; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 body { margin: 0; font-size: 13px; line-height: 1.231; }
@@ -11,25 +10,11 @@ a { color: #F8F6E1; text-decoration: none; border-bottom: 1px dotted #F8F6E1; }
 a:focus { outline: 0; border-bottom: 1px solid #fff; color: #fff; }
 a:hover, a:active { outline: 0; border-bottom: 1px solid #fff; color: #fff; }
 
-b, strong { font-weight: bold; }
-hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
-ins { background: #ff9; color: #000; text-decoration: none; }
-mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
-q { quotes: none; }
-q:before, q:after { content: ""; content: none; }
 small { font-size: 85%; }
-sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-sup { top: -0.5em; }
-sub { bottom: -0.25em; }
-
 ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
-nav ul, nav ol { list-style: none; margin: 0; padding: 0; }
-
 img { border: 0; -ms-interpolation-mode: bicubic; }
 svg:not(:root) { overflow: hidden; }
-
 textarea { overflow: auto; vertical-align: top; }
-
 
 
 /* ----- Primary styles :: Author: Chris Nager ----- */
@@ -38,6 +23,7 @@ header, #content, footer { max-width: 1080px; margin: 0 auto; }
 
 /* Header */
 header > h2, .try h1, .try h2, .previous > h1 { color: #F8F6E1; }
+header > h2, .try h1, .previous > h1 { font-size: 1.538em; }
 header { text-align: center; clear: both; }
 header > h1 { cursor: pointer; margin: 0; padding-right: 10px; text-shadow: -1px 1px 0 #001F49, -2px 2px 0 #001F49, -3px 3px 0 #001F49, -4px 4px 0 #001F49, -5px 5px 0 #001F49; letter-spacing: 2px; font-family: badaboom-pro-1, badaboom-pro-2, sans-serif; color: #fff; font-size: 4em; font-weight: normal; font-style: italic; }
 header > h1:hover { text-shadow: -1px 1px 0 #000, -2px 2px 0 #000, -3px 3px 0 #000, -4px 4px 0 #000, -5px 5px 0 #000; }
