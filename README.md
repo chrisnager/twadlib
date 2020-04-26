@@ -1,3 +1,3 @@
-# [@TWADLIB!](http://chrisnager.com/twadlib)
+# [@TWADLIB!](//chrisnager.com/twadlib)
 
 Ad-lib your tweets
